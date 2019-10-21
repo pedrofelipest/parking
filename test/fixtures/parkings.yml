@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  plate: MyString
+  entrance: 2019-10-18 00:00:07
+  departure: 2019-10-18 00:00:07
+  pay: false
+  left: false
+
+two:
+  plate: MyString
+  entrance: 2019-10-18 00:00:07
+  departure: 2019-10-18 00:00:07
+  pay: false
+  left: false

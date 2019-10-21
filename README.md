@@ -1,4 +1,4 @@
-# README
+### Parking
 
 API para controle de estacionamento
 
@@ -8,16 +8,18 @@ API para controle de estacionamento
 
 * Docker version 19.03.4
 
-Criar aplicação
+#### Criar aplicação
 
-docker-compose build
+`$ docker-compose build`
 
-docker-compose run web rails db:migrate
+#### Migrar banco
 
-Testes
+`$ docker-compose run web rails db:migrate`
 
-docker-compose run web rspec
+#### Testes
 
-Iniciar Aplicação
+`$ docker-compose run web rspec`
 
-docker-compose run web up
+#### Iniciar Aplicação
+
+`$ docker-compose run web up`
